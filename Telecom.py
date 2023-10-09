@@ -39,9 +39,3 @@ class ZonaTelecomLoginTest:
         else:
             self.driver.save_screenshot('error_01.png')
             print('Тест ' + self.driver.title + ' - ❌')
-
-
-tester = ZonaTelecomLoginTest()
-tester.authorize_by_phone("79915501002")
-
-time.sleep(5)
